@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start Header */
+header img {
+  height: 350px !important;
+}
+header .buttons {
+  position: absolute;
+  margin: 20px;
+  z-index: 2;
+}
+header .buttons button {
+  padding: 6px 10px;
+  color: white;
+  background-color: #e91e63;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* End Header  */
+
+/* Start main and its children */
+
+main {
+  text-align: center;
+}
+
+main article {
+  margin: 4% 0;
+  padding: 5% 22% 1%;
+  border-bottom: 2px solid #08d508;
+}
+
+main img {
+  float: right;
+  width: 200px;
+  border: black 2px solid;
+  box-shadow: rgb(90 230 90 / 50%) 5px 5px 20px 11px;
+}
+
+main p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #08d508;
+}
+
+main span {
+  display: inline-block;
+  width: 60%;
+  margin: 0 3%;
+}
+
+@media (max-width: 1050px) and (min-width: 776px) {
+  main article {
+    padding: 5% 12% 1%;
+  }
+}
+
+@media (max-width: 775px) and (min-width: 628px) {
+  main article {
+    padding: 5% 3% 1%;
+  }
+}
+
+@media (max-width: 627px) {
+  main article {
+    padding: 5% 10% 1%;
+  }
+
+  main img {
+    width: 90%;
+    margin: 6% 4% 20%;
+  }
+
+  main span {
+    width: auto;
+    margin: 0;
+  }
+}
+
+/* End main  and its children*/
+
+/* Start the row  */
+
+.row {
+  width: 100%;
+  height: 3px;
+  background-color: #08d508;
+}
+
+/* End the row  */
+
+/* Satrt the map and its container */
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Satrt the map  */
+
+/* Start the footer and its childern  */
+
+footer {
+  margin: 1% 0;
+  padding: 2% 0;
+  text-align: center;
+  background: #cfd3d3;
+  border: 2px solid #08d508;
+}
+
+footer div {
+  border-bottom: 2px #08d508 solid;
+  padding: 1% 10%;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+/* End the footer and its childern  */
+
+/* Start the iframe for the map  */
+
+iframe {
+  width: 50%;
+  height: 400px;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 500px) {
+  iframe {
+    height: 340px;
+  }
+}
+
+@media (max-width: 380px) {
+  iframe {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15%;
+  }
+}
+
+/* Start the iframe for the map  */
